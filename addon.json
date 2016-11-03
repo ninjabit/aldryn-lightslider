@@ -1,0 +1,6 @@
+{
+	"package-name": "aldryn-lightslider",
+	"installed-apps": [
+		"aldryn_lightslider"
+	]
+}
