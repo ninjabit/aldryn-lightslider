@@ -9,13 +9,13 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='aldryn-lightslider',
-    version='1.0.0',
+    version='0.1.0',
     packages=find_packages(),
     include_package_data=True,
     license='GNU License', 
     description='LightSlider aldryn addon and djangocms plugin.',
     long_description=README,
-    url='https://www.ninjabit.com/opensource/aldryn-lightslider',
+    url='https://github.com/ninjabit/aldryn-lightslider',
     author='Tobia Ghiraldini',
     author_email='tobia.ghiraldini@ninjabit.com',
     classifiers=[
@@ -23,7 +23,7 @@ setup(
         'Framework :: Django',
         'Framework :: Django :: 1.8',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU License',
+        'License :: OSI Approved :: GNU General Public License (GPL)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
