@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join(here, 'README.md')) as readme:
+with open(os.path.join(here, 'README.rst')) as readme:
     README = readme.read()
 
 # allow setup.py to be run from any path
