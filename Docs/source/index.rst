@@ -1,5 +1,5 @@
 .. aldryn-lightslider documentation master file, created by
-   sphinx-quickstart on Thu Nov  3 16:59:36 2016.
+   sphinx-quickstart on Thu Nov  3 18:55:19 2016.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
