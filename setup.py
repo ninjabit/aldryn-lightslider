@@ -14,6 +14,12 @@ setup(
     version='0.1.1',
     packages=find_packages(),
     include_package_data=True,
+    install_requires=(
+        'django-filer',
+        'django-cms>=3.0',
+        'djangocms-admin-style',
+        'cmsplugin-filer',
+    ),
     license='GNU License', 
     description='LightSlider aldryn addon and djangocms plugin.',
     long_description=README,
