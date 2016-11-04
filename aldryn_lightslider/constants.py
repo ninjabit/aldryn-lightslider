@@ -68,8 +68,6 @@ DEVICE_CHOICES = (
 )
 DEVICE_SIZES = tuple([size for size, name in DEVICE_CHOICES])
 
-GRID_SIZE = settings.ALDRYN_BOOTSTRAP3_GRID_SIZE
-
 
 ASPECT_RATIOS = (
     (4, 3),
