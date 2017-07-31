@@ -1,6 +1,8 @@
 import os
 from setuptools import find_packages, setup
+import aldryn_lightslider
 
+version = aldryn_lightslider.__version__
 here = os.path.abspath(os.path.dirname(__file__))
 
 with open(os.path.join(here, 'README.rst')) as readme:
@@ -11,7 +13,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='aldryn-lightslider',
-    version='0.1.1',
+    version=version,
     packages=find_packages(),
     include_package_data=True,
     install_requires=(
@@ -20,6 +22,7 @@ setup(
         'djangocms-admin-style',
         'cmsplugin-filer',
     ),
+    # install_requires=[i.strip() for i in open(os.path.join(here,"requirements.txt")).readlines()],
     license='GNU License', 
     description='LightSlider aldryn addon and djangocms plugin.',
     long_description=README,

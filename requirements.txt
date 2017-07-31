@@ -1,3 +1,5 @@
 tox
-django
 django-cms
+djangocms-admin-style
+django-filer
+cmsplugin-filer
