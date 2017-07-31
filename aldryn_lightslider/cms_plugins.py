@@ -20,6 +20,7 @@ class LightsliderSlideBase(LightsliderBase):
 
     def render(self, context, instance, placeholder):
         context['instance'] = instance
+        context['parent'] = instance.parent.get_plugin_instance()[0]
         context['image'] = instance.image
         return context
 

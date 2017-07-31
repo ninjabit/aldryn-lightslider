@@ -3,7 +3,7 @@
 <li>
     {% with image=instance.image %}
         {% if image %}
-            {% if instance.number_of_concurrent_slides == 1 %}
+            {% if parent.number_of_concurrent_slides == 1 %}
                 {% with image=instance.image srcset=lightslider.srcset %}{% include 'aldryn_lightslider/plugins/lightslider/standard/includes/image_fullscreen.html' %}{% endwith %}
             {% else %}
                 {% with image=instance.image srcset=lightslider.srcset %}{% include 'aldryn_lightslider/plugins/lightslider/standard/includes/image.html' %}{% endwith %}
